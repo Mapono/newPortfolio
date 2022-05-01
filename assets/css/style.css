@@ -1,0 +1,28 @@
+body {
+  color: rgb(151, 219, 246);
+  background-color: rgb(47, 47, 49);
+}
+h1 {
+  color: rgb(47, 47, 49);
+  background-color: rgb(151, 219, 246);
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+}
+a {
+  color: inherit;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  padding: 15px;
+}
