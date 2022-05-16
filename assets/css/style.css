@@ -6,10 +6,15 @@
 body {
   color: rgb(151, 219, 246);
   background-color: rgb(47, 47, 49);
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 h1 {
   color: rgb(47, 47, 49);
   background-color: rgb(151, 219, 246);
+  font-size: 2em;
+  border-radius: 50% 0% 50% 0%;
 }
 header {
   display: flex;
@@ -28,11 +33,11 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: xx-large;
+  font-size: 2em;
   padding: 15px;
 }
 #coolSubtitle {
-  min-height: 40vh;
+  min-height: 35vh;
   text-align: right;
   padding-right: 15px;
   background-image: url(../img/pexels-riccardo-bertolo-4245826.jpg);
@@ -45,4 +50,5 @@ nav a {
   bottom: 0;
   right: 0;
   margin: 0;
+  padding-right: 10px;
 }
