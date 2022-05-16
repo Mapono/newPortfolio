@@ -38,9 +38,11 @@ nav a {
   background-image: url(../img/pexels-riccardo-bertolo-4245826.jpg);
   background-size: cover;
   background-position: center;
+  position: relative;
 }
-#coolSubtitle h2 {
+#bottomRT {
   position: absolute;
   bottom: 0;
   right: 0;
+  margin: 0;
 }
